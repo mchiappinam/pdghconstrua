@@ -1,0 +1,13 @@
+name: PDGHConstrua
+main: bassintag.pdghconstrua.common.BuildMyThing
+version: 1.6
+commands:
+  bmt:
+    description: The main command of Build My Thing
+permissions:
+  bmt.admin:
+    description: Allows you to create rooms
+    default: op
+  bmt.default:
+    description: Allows you to play etc...
+    default: true
